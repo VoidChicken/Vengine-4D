@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Vengine_Lib
 {
-    public interface Script : Component
+    public interface Component
     {
-        void Start();
-        void Tick();
-        void Unload();
-        void FirstStart();
     }
 }
